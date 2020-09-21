@@ -1,0 +1,120 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+    width: 700px;
+    margin: 0 auto 0 auto;
+
+}
+
+h3 {
+    font-size: 29px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #555555;
+    margin: 20px 0px 20px 0px;
+}
+
+.header {
+    background-color: #999999;
+}
+
+.tagline {
+    background-color: #000000;
+    padding: 20px 0px 20px 0px;
+}
+
+p{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+a{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #550900;
+    text-decoration: underline;
+}
+.projects, .badges, .articles, .skills {
+    width:700px;
+     margin: 0 auto;
+}
+.projects ul, .badges ul, .articles ul, .skills ul {
+   
+    list-style-type: none;
+}
+.badges li, .articles li, .skills li{
+    margin-bottom: 10px;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.badges img {
+    /* any images in the badges class will....*/
+    float: left;
+    padding-right: 10px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+.skills li{
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #444444;
+    color: #cccccf;
+    display: inline;
+    padding: 8px 8px 8px 8px;
+    margin-right: 10px;
+}
+
+.footer {
+   
+     background-color: #999999;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+
+.compact{
+    width:40px;
+    height: 40px;
+}
+
+.standard{
+    width:540px;
+    height: 250px;
+}
